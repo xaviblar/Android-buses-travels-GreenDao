@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab_ViajesBuses</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_viajes">viajes</string>
+    <string name="title_activity_agregar_bus">agregar_bus</string>
+    <string name="title_activity_editar_bus">editar_bus</string>
+    <string name="title_activity_agregar_viaje">agregar_viaje</string>
+    <string name="title_activity_editar_viaje">editar_viaje</string>
+</resources>

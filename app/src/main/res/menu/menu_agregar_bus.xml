@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.xavier.lab_viajesbuses.agregar_bus">
+    <item android:id="@+id/guardar"
+        android:title="Guardar"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_save"/>
+    <item android:id="@+id/cancelar"
+        android:title="Cancelar"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+</menu>

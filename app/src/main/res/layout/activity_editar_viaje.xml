@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.xavier.lab_viajesbuses.editar_viaje">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Editar Viaje"
+        android:id="@+id/TV_editar_viaje"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.xavier.lab_viajesbuses.fragment_add_edit_viaje"
+        android:id="@+id/frag_editar_viaje"
+        android:layout_below="@+id/TV_editar_viaje"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_add_edit_viaje" />
+</RelativeLayout>

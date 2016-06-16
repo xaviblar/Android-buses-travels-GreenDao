@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.xavier.lab_viajesbuses.viajes_activity">
+    <item android:id="@+id/agregar_viaje"
+        android:title="Agregar Viaje"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_input_add"/>
+    <item android:id="@+id/ver_buses"
+        android:title="Ver Buses"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_dialog_info"/>
+</menu>
